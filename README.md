@@ -1,6 +1,6 @@
 # capsid-scroll-lock v0.1.0
 
-> Body Scroll Lock as [capsid][] component
+> :clamp: Body Scroll Lock as [capsid][] module :pill:
 
 # Usage
 
