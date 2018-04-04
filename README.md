@@ -16,7 +16,7 @@ capsid.install(require('capsid-scroll-lock'))
 
 Then, add `scroll-lock` class to your body tag.
 
-```
+```html
 <body class="scroll-lock">
   ...
 </body>
@@ -26,7 +26,7 @@ Then dispatch `capsid-scroll-lock/LOCK` custom DOM event to lock the scroll of `
 
 Those event names are available as `LOCK` and `UNLOCK` values from the module.
 
-```
+```js
 const { LOCK, UNLOCK } = require('capsid-scroll-lock')
 
 console.log(LOCK) // => "capsid-scroll-lock/LOCK"
@@ -62,7 +62,7 @@ class MyComponent {
 
 And put `my-component` somewhere in body
 
-```
+```html
 <body class="scroll-lock">
   ...
   <div class="my-component">
