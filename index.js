@@ -1,6 +1,6 @@
 const LOCK = 'capsid-scroll-lock/LOCK'
 const UNLOCK = 'capsid-scroll-lock/UNLOCK'
-const DEFAUTL_NAME = 'scroll-lock'
+const DEFAULT_NAME = 'scroll-lock'
 
 const STYLE_KEYS = [
   'boxSizing',
@@ -60,10 +60,10 @@ exports.install = ({ def, on }, { name } = {}) => {
     }
 
     adjustPaddingRight () {
-      const currentPadding = parseInt(this.originalStyles.paddingRight, 10) || 0
-      const adjustedPadding = window.innerWidth - this.el.clientWidth + currentPadding || 0
+      const currentPadding = parseInt(this.originalStyle.paddingRight, 10) || 0
+      const adjustedPadding = window.innerWidth - this.el.clientWidth + currentPadding
 
-      this.el.style.paddingRight = adjustedPadding
+      this.el.style.paddingRight = `${adjustedPadding}px`
     }
 
     unlockStyle () {

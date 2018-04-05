@@ -4,7 +4,8 @@
   "description": "Body Scroll Lock as capsid module",
   "main": "index.js",
   "scripts": {
-    "test": "kocha test.js"
+    "test": "kocha test.js",
+    "cov": "nyc npm test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,25 @@
   "bugs": {
     "url": "https://github.com/capsidjs/capsid-scroll-lock/issues"
   },
-  "homepage": "https://github.com/capsidjs/capsid-scroll-lock#readme"
+  "homepage": "https://github.com/capsidjs/capsid-scroll-lock#readme",
+  "peerDependencies": {
+    "capsid": ">=0.20.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/register": "^7.0.0-beta.44",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "capsid": "^0.20.3",
+    "kocha": "^1.9.1",
+    "nyc": "^11.6.0",
+    "window": "^4.2.5"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  }
 }
