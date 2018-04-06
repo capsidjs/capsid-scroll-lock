@@ -27,6 +27,18 @@ Then, add `scroll-lock` class to your body tag.
 
 Then dispatch `capsid-scroll-lock/LOCK` custom DOM event to lock the scroll of `body` and `capsid-scroll-lock/UNLOCK` event to unlock it.
 
+```js
+document.body.dispatchEvent(new CustomEvent('capsid-scroll-lock/LOCK'))
+```
+
+This locks the body scroll.
+
+```js
+document.body.dispatchEvent(new CustomEvent('capsid-scroll-lock/UNLOCK'))
+```
+
+The above unlocks the body scroll.
+
 Those event names are available as `LOCK` and `UNLOCK` values from the module.
 
 ```js
