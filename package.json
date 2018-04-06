@@ -2,7 +2,7 @@
   "name": "capsid-scroll-lock",
   "version": "1.0.0",
   "description": "Body Scroll Lock as capsid module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "kocha test.js",
     "lint": "standard",
