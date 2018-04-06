@@ -14,7 +14,7 @@ const LOCK_STYLES = {
   boxSizing: 'border-box',
   overflow: 'hidden',
   position: 'relative',
-  height: '100%',
+  height: '100%'
 }
 
 exports.LOCK = LOCK
