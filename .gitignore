@@ -4,3 +4,6 @@
 # nyc
 /.nyc_output
 /coverage
+
+# dist
+/dist

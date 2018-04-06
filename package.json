@@ -6,8 +6,13 @@
   "scripts": {
     "test": "kocha test.js",
     "cov": "nyc npm test",
-    "codecov": "npm run cov && codecov"
+    "codecov": "npm run cov && codecov",
+    "dist": "babel index.js > dist/index.js",
+    "prepublish": "npm run dist"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/capsidjs/capsid-scroll-lock.git"
