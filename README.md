@@ -1,5 +1,8 @@
 # capsid-scroll-lock v0.1.0
 
+[![CircleCI](https://circleci.com/gh/capsidjs/capsid-scroll-lock.svg?style=svg)](https://circleci.com/gh/capsidjs/capsid-scroll-lock)
+[![codecov](https://codecov.io/gh/capsidjs/capsid-scroll-lock/branch/master/graph/badge.svg)](https://codecov.io/gh/capsidjs/capsid-scroll-lock)
+
 > :clamp: Body Scroll Lock as [capsid][] module :pill:
 
 # Usage
