@@ -1,4 +1,4 @@
-# capsid-scroll-lock v1.0.0
+# capsid-scroll-lock v1.0.1
 
 [![CircleCI](https://circleci.com/gh/capsidjs/capsid-scroll-lock.svg?style=svg)](https://circleci.com/gh/capsidjs/capsid-scroll-lock)
 [![codecov](https://codecov.io/gh/capsidjs/capsid-scroll-lock/branch/master/graph/badge.svg)](https://codecov.io/gh/capsidjs/capsid-scroll-lock)
