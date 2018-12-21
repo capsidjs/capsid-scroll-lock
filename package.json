@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/capsidjs/capsid-scroll-lock#readme",
   "peerDependencies": {
-    "capsid": ">=0.20.3"
+    "capsid": ">=0.29.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -41,7 +41,7 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/register": "^7.0.0",
     "babel-eslint": "^8.2.2",
-    "capsid": "^0.20.3",
+    "capsid": "^0.29.1",
     "codecov": "^3.0.0",
     "kocha": "^1.9.1",
     "mkdirp": "^0.5.1",

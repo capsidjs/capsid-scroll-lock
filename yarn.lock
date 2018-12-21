@@ -1120,9 +1120,9 @@ caniuse-lite@^1.0.30000921:
   version "1.0.30000923"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000923.tgz#148f9bda508024b5ce957b463ae2e8302b451bb2"
 
-capsid@^0.20.3:
-  version "0.20.3"
-  resolved "https://registry.yarnpkg.com/capsid/-/capsid-0.20.3.tgz#c3a89b183f424f05aa73e196068f64ee64eb58b0"
+capsid@^0.29.1:
+  version "0.29.1"
+  resolved "https://registry.yarnpkg.com/capsid/-/capsid-0.29.1.tgz#f06250a0a63acf0b9c24577205b5227e2a298fdb"
 
 caseless@~0.12.0:
   version "0.12.0"
